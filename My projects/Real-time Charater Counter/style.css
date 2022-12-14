@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(silas-baisch-51QUGLV6En0-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  overflow: hidden;
+  color: white;
+  font-family: monospace;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 500px;
+  height:400px;
+}
+.container h1{
+  margin-bottom: 12px;
+  font-size: 23px;
+  text-shadow: 2px 2px 5px black;
+}
+.textarea {
+  resize: none;
+  width: 80%;
+  height: 200px;
+  font-size: 15px;
+  background-color: black;
+  opacity: .8;
+  color: white;
+}
+
+.counter-container{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  background: rgb(159, 28, 28);
+  opacity: .8;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.total-counter{
+  color: gold;
+}
+.remaining-counter{
+  color: green;
+}
