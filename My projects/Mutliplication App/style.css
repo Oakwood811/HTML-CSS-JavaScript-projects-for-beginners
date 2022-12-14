@@ -1,0 +1,58 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  background-image: url(roman-mager-5mZ_M06Fc9g-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form{
+  background-color: white;
+  padding: 20px;
+  box-shadow: -2px -3px 3px 2px black;
+  border-radius: 25px;
+  margin: 20px auto;
+  width: 400px;
+}
+.score{
+  margin-bottom: 20px;
+  text-align: right;
+}
+.input{
+  margin-top: 15px;
+  height: 30px;
+  width: 100%;
+  border-color: black;
+}
+.input::placeholder{
+  font-size: 17px;
+  
+  text-align: center;
+  color: grey;
+}
+.btn{
+  margin-top: 15px;
+  background-color: white;
+  padding: 3px 5px;
+  border-radius: 25px;
+
+
+
+}
+.btn:hover{
+  cursor: pointer;
+  box-shadow: 2px 2px 2px black;
+  background: #482d07;
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
