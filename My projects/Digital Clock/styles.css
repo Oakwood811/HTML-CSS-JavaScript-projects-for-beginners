@@ -10,5 +10,51 @@ body {
   align-items: center;
   height: 100vh;
   justify-content: center;
-  background-image: url();
+  background-image: url(images/shot-by-cerqueira-8qH4GSYBiSA-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container{
+  display: flex;
+}
+.heading{
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
+  font-size: 8px;
+  color: rgb(243, 235, 235);
+  text-shadow: 3px 2px 3px black;
+}
+.container div{
+  margin: 5px;
+  position:relative;
+  color: aliceblue;
+}
+.container span{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 80px;
+  background-color: goldenrod;
+  opacity: .8;
+  font-size: 42px;
+  text-shadow: 2px 2px 3px rgba(0,0,0,.6);
+}
+
+.container .text{
+  height: 30px;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: rgb(93, 79, 184);
+  opacity:.8;
+}
+.container #ampm{
+  width: 50px;
+  height: 30px;
+  font-size: 20px;
+  position: absolute;
+  bottom: 0;
+  background: goldenrod;
 }
