@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-image: url(devon-beard-gusKvIhcoms-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.btn{
+  background-color: rgb(160, 56, 17);
+  padding: 20px 30px;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 2px;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn span{
+  position: relative;
+  z-index: 1;
+}
+
+.btn::before{
+  content: "";
+  position: absolute;
+  background-color: rgb(64, 141, 205);
+  width: 0;
+  height: 0;
+  top: var(--yPos);
+  left: var(--xPos);
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  transition: width .5s, height .5s;
+}
+
+.btn:hover::before{
+width: 200px;
+height: 200px;
+
+}
